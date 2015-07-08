@@ -1,0 +1,161 @@
+/*******************
+Sidebar
+*******************/
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+}
+
+.main   {
+  display: block;
+  margin: auto;
+  min-width: 600px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.sidebar {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 330px;
+  min-height: 100vh;
+}
+
+.note-holder {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.note {
+  color: #ccc;
+  max-width: 200px;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.date {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+h1  {
+  padding-left: -15px;
+}
+
+.education {
+  padding-left: 50px;
+}
+
+.objective {
+  background: #eee;
+  font-style: italic;
+  margin: 2em 0 1em;
+  padding: 25px;
+  font-size: 0.9em;
+}
+
+.container a {
+  color:blue;
+  text-decoration: none;
+}
+
+.container article {
+  font-size: 0.9em;
+  padding: 0 1em;
+  text-align: left;
+}
+
+.container img {
+  border-radius: 50%;
+  padding: 14px 0;
+  width: 110px;
+  margin: 0 auto;
+  display:  block;
+}
+
+.container ul {
+  color: #ccc;
+  list-style-type: square;
+}
+
+.container li {
+  margin-left: -20px;
+}
+
+.container h2 {
+  font-weight: 500px;
+}
+
+/*******************
+Contact Info
+*******************/
+
+.contact {
+  color: #ccc;
+  font-size: 0.9em;
+  right: 0;
+  top: 0;
+}
+
+.job-title {
+  color: black;
+  font-weight: bold;
+}
+
+
+/*******************
+Bootstrap Additions 
+*******************/
+
+.col-xs-4 img	{				
+  border-radius: 100%;
+  padding: 14px 0;
+  width: 110px;
+  text-align: center;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.other {
+  background: #88B040;
+}
+
+.other2 {
+  background: #777;
+}
+
+.p {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.p a {
+  text-decoration: underline;
+  color: blue;
+}
+
+/*********************
+NEW Bootstrap Sidebar
+*********************/
+
+.container	.col-xs-4 {
+  background: rgb(34,89,152); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(34,89,152,1) 0%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,89,152,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#225998', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+  color: white;
+
+}
